@@ -1,7 +1,7 @@
 
 
 def test_product(product_1) -> None:
-    print(type(product_1))
+
     assert product_1.name == "товар_1"
     assert product_1.description == "Описание: товар 1"
     assert product_1.price == 124.27
