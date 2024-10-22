@@ -1,5 +1,7 @@
 from decimal import Decimal
 
+
+
 class Product:
     name: str
     description: str
@@ -14,6 +16,7 @@ class Product:
         self.quantity = quantity
 
 
-x = Product('товар_1','Описание: товар 1', 124.27, 10)
+#if __name__ == '__main__':
+    #x = Product('товар_1','Описание: товар 1', 124.27, 10)
 
-print(x.price/3)
+    #print(x.price)
