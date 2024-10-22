@@ -1,13 +1,12 @@
-from decimal import Decimal
-
-
-
 class Product:
+    '''
+    класс Product имеет  следующие свойства:
+    название,описание ,цена,количество в наличии
+    '''
     name: str
     description: str
     price: float
     quantity: int
-
 
     def __init__(self, name, description, price=0.0, quantity=0):
         self.name = name
@@ -15,8 +14,7 @@ class Product:
         self.price = price
         self.quantity = quantity
 
+# if __name__ == '__main__':
+# x = Product('товар_1','Описание: товар 1', 124.27, 10)
 
-#if __name__ == '__main__':
-    #x = Product('товар_1','Описание: товар 1', 124.27, 10)
-
-    #print(x.price)
+# print(x.price)
